@@ -120,3 +120,23 @@ header {
 .hero-btn button {
     background-color: var(--button-color);
 }
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    gap: 16px;
+}
+
+.card-img {
+    border: 3px solid blue;
+    border-radius: 10%;
+    min-width: 250px;
+    min-height: 250px;
+    margin: 24px;
+}
