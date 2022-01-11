@@ -125,6 +125,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 24px 24px 24px 48px;
 }
 
 
@@ -139,4 +140,16 @@ header {
     min-width: 250px;
     min-height: 250px;
     margin: 24px;
+}
+
+.quote_card {
+    background-color: var(--quote-bg-color);
+    display: flex;
+    flex-direction: column;
+    padding: 75px 100px;
+}
+
+.citation {
+    align-self: flex-end;
+    font-weight: bold;
 }
