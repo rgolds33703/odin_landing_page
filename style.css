@@ -22,6 +22,11 @@ ol, ul {
     list-style: none;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 blockquote, q {
     quotes: none;
 }
@@ -64,6 +69,7 @@ body {
 .header-logo-text {
     font-size: 24px;
     color: var(--header-main-text);
+    font-weight: bold;
 }
 
 .info-header-text {
@@ -77,4 +83,17 @@ body {
     font-weight: 300;
     font-style: italic;
     color: var(--quote-text);
+}
+/* end set page fonts */
+
+header {
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.header_links {
+    display: flex;
+    gap: 24px;
 }
