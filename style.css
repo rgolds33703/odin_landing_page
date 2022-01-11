@@ -97,3 +97,26 @@ header {
     display: flex;
     gap: 24px;
 }
+
+.hero_card {
+    background-color: var(--dark-bg-color);
+    display: flex;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-img-placeholder {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin: 16px 48px;
+   }
+
+.hero-btn button {
+    background-color: var(--button-color);
+}
