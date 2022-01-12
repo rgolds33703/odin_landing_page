@@ -53,7 +53,7 @@ q:before, q:after {
 /* set page fonts */
 body {
     font-family: roboto, sans-serif;
-}
+    }
 
 .hero-main-text {
     font-size: 48px;
@@ -101,6 +101,11 @@ header {
 .hero_card {
     background-color: var(--dark-bg-color);
     display: flex;
+    padding: 48px 48px;
+}
+
+.hero-sec {
+    margin-top: 5px;
 }
 
 .hero-left {
@@ -119,6 +124,12 @@ header {
 
 .hero-btn button {
     background-color: var(--button-color);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    color: var(--header-main-text);
+    font-weight: bold;
 }
 
 .info_card {
