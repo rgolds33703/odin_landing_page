@@ -172,4 +172,13 @@ header {
     color: var(--header-main-text);
 }
 
+footer {
+    background-color: var(--dark-bg-color);
+    color: var(--header-sec-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
 
